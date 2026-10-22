@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+defaults:
+  run:
+    working-directory: bundesliga-report
+
 concurrency:
   group: bundesliga-report
   cancel-in-progress: false
