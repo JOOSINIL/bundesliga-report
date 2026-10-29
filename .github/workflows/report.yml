@@ -1,31 +1,25 @@
-name: 분데스리가 전술 리포트
+name: 3대 리그 자료 수집
 
 on:
   schedule:
-    - cron: "23 0 * * 1"   # 매주 월요일 09:23 (한국 시간) - 주말 라운드 반영
-    - cron: "23 0 * * 4"   # 매주 목요일 09:23 (한국 시간) - 주중 라운드가 있을 때 반영
+    - cron: "23 0 * * *"   # 매일 09:23 (한국 시간)
   workflow_dispatch:
-    inputs:
-      force_report:
-        description: "새 경기가 없어도 팀 리포트를 전부 다시 만들기"
-        type: boolean
-        default: false
 
 permissions:
   contents: write
 
-defaults:
-  run:
-    working-directory: bundesliga-report
-
 concurrency:
-  group: bundesliga-report
+  group: football-report
   cancel-in-progress: false
 
+defaults:
+  run:
+    working-directory: football-report
+
 jobs:
-  report:
+  collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v6
 
@@ -36,21 +30,22 @@ jobs:
       - name: 필요한 패키지 설치
         run: pip install -r requirements.txt
 
-      - name: 리포트 만들기
-        run: python report.py
+      - name: 자료 수집
+        run: python run.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          FORCE_REPORT: ${{ inputs.force_report }}
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
 
       - name: 결과 저장
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add --all -- data reports 2>/dev/null || true
+          git add --all -- data site exports 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "바뀐 내용이 없습니다."
           else
-            git commit -m "리포트 업데이트 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "자료 수집 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash || true
             git push
           fi
