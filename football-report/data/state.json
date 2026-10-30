@@ -13,6 +13,16 @@
    "stopped": "API 크레딧 소진",
    "usd": 165.01,
    "finished": "2026-10-29T18:54+09:00"
+  },
+  {
+   "started": "2026-10-30T15:00+09:00",
+   "analyzed": 0,
+   "failed": 0,
+   "squads": 0,
+   "teams": 0,
+   "stopped": "API 크레딧 소진",
+   "usd": 0.0,
+   "finished": "2026-10-30T15:00+09:00"
   }
  ]
 }
