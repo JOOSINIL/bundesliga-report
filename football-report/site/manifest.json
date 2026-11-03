@@ -7,7 +7,7 @@
   "data/BL1/md05.json": "9f9dd96c95c7e3a5",
   "data/BL1/md06.json": "08a14506166daefe",
   "data/BL1/md07.json": "2bc88aa445ca297a",
-  "data/BL1/md08.json": "2adba2e4c14df47e",
+  "data/BL1/md08.json": "c02f737b6c4e25fd",
   "data/BL1/teams.json": "aec263796219b87a",
   "data/PD/md01.json": "9766b63025932da2",
   "data/PD/md02.json": "5fc2d910a26bbfee",
@@ -19,8 +19,8 @@
   "data/PD/md08.json": "981a85936426cbd2",
   "data/PD/md09.json": "6a815de8fbfbf272",
   "data/PD/md10.json": "9eb590ecc1f24ae0",
-  "data/PD/md11.json": "b99c8f2650219f90",
-  "data/PD/teams.json": "5410fae98aa5c983",
+  "data/PD/md11.json": "2e946ad43b70dcbd",
+  "data/PD/teams.json": "447e1cbd1cdcf631",
   "data/PL/md01.json": "0247f152354831d0",
   "data/PL/md02.json": "1593ed99690bc68c",
   "data/PL/md03.json": "607d618d07a0b2c0",
@@ -29,9 +29,9 @@
   "data/PL/md06.json": "822079076f665e3a",
   "data/PL/md07.json": "69192ea216c07e37",
   "data/PL/md08.json": "7655aeaf2bd3e596",
-  "data/PL/md09.json": "f462d1bfd5d8d9c9",
-  "data/PL/teams.json": "1dc2675a7efa8a29",
-  "data/index.json": "e2e32c86c6f96e00",
+  "data/PL/md09.json": "82b2d25685261573",
+  "data/PL/teams.json": "2a6d849dbcfbd450",
+  "data/index.json": "3311e473cd90b8ad",
   "index.html": "beefe7884d0562d0"
  }
 }
