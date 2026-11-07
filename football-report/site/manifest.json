@@ -8,7 +8,8 @@
   "data/BL1/md06.json": "08a14506166daefe",
   "data/BL1/md07.json": "2bc88aa445ca297a",
   "data/BL1/md08.json": "c02f737b6c4e25fd",
-  "data/BL1/teams.json": "aec263796219b87a",
+  "data/BL1/md09.json": "66035a2af487effa",
+  "data/BL1/teams.json": "43cc50f33d8a30d1",
   "data/PD/md01.json": "9766b63025932da2",
   "data/PD/md02.json": "5fc2d910a26bbfee",
   "data/PD/md03.json": "b72d126beeeed01e",
@@ -31,7 +32,7 @@
   "data/PL/md08.json": "7655aeaf2bd3e596",
   "data/PL/md09.json": "82b2d25685261573",
   "data/PL/teams.json": "2d6c448cf48f0624",
-  "data/index.json": "b4b0017113983493",
+  "data/index.json": "e6c33b47dbd0f445",
   "index.html": "beefe7884d0562d0"
  }
 }
