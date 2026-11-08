@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "fetched_at": "2026-11-07T15:13+09:00",
+ "fetched_at": "2026-11-08T15:18+09:00",
  "notes": [
   "프리미어리그: 경기 목록을 가져오지 못함 (400 Client Error:  for url: https://api.football-data.org/v4/competitions/PL/matches?season=2026)",
   "라리가: 경기 목록을 가져오지 못함 (400 Client Error:  for url: https://api.football-data.org/v4/competitions/PD/matches?season=2026)"
@@ -1653,12 +1653,16 @@
    "kickoff_utc": "2026-11-07T14:30:00Z",
    "home": "Borussia Dortmund",
    "away": "SV 07 Elversberg",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 2,
+   "away_score": 1,
+   "ht_home": 0,
+   "ht_away": 0,
+   "goals": [
+    "1-0 F. Nmecha 55'",
+    "2-0 F. Nmecha 71'",
+    "2-1 N. Futkeu 81'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
@@ -1671,12 +1675,20 @@
    "kickoff_utc": "2026-11-07T14:30:00Z",
    "home": "RB Leipzig",
    "away": "FC Augsburg",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 5,
+   "away_score": 2,
+   "ht_home": 3,
+   "ht_away": 1,
+   "goals": [
+    "0-1 A. Kade 1'",
+    "1-1 E. Banzuzi 34'",
+    "2-1 C. Nkunku 35'",
+    "3-1 D. Raum 46'",
+    "4-1 Romulo 60'",
+    "5-1 C. Baumgartner 66'",
+    "5-2 Uchenna Ogundu 93'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
@@ -1689,12 +1701,16 @@
    "kickoff_utc": "2026-11-07T14:30:00Z",
    "home": "1. FSV Mainz 05",
    "away": "FC Bayern München",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 1,
+   "away_score": 2,
+   "ht_home": 0,
+   "ht_away": 1,
+   "goals": [
+    "0-1 J. Kimmich 14'",
+    "0-2 Lennart Karl 57'",
+    "1-2 P. Tietz 93'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
@@ -1707,12 +1723,17 @@
    "kickoff_utc": "2026-11-07T14:30:00Z",
    "home": "SC Paderborn 07",
    "away": "Eintracht Frankfurt",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 2,
+   "away_score": 2,
+   "ht_home": 1,
+   "ht_away": 1,
+   "goals": [
+    "0-1 J. Burkardt 23'",
+    "1-1 R. Obermair 45'",
+    "2-1 M. Pieringer 73' (PK)",
+    "2-2 J. Burkardt 93'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
@@ -1725,12 +1746,14 @@
    "kickoff_utc": "2026-11-07T17:30:00Z",
    "home": "VfB Stuttgart",
    "away": "SV Werder Bremen",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 1,
+   "away_score": 0,
+   "ht_home": 1,
+   "ht_away": 0,
+   "goals": [
+    "1-0 M. Mittelstädt 7'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
