@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "fetched_at": "2026-11-10T16:30+09:00",
+ "fetched_at": "2026-11-11T15:45+09:00",
  "notes": [
   "프리미어리그: 경기 목록을 가져오지 못함 (400 Client Error:  for url: https://api.football-data.org/v4/competitions/PL/matches?season=2026)",
   "라리가: 경기 목록을 가져오지 못함 (400 Client Error:  for url: https://api.football-data.org/v4/competitions/PD/matches?season=2026)"
