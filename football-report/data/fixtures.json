@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "fetched_at": "2026-11-21T16:25+09:00",
+ "fetched_at": "2026-11-22T16:05+09:00",
  "notes": [
   "프리미어리그: 경기 목록을 가져오지 못함 (400 Client Error:  for url: https://api.football-data.org/v4/competitions/PL/matches?season=2026)",
   "라리가: 경기 목록을 가져오지 못함 (400 Client Error:  for url: https://api.football-data.org/v4/competitions/PD/matches?season=2026)"
@@ -1852,12 +1852,17 @@
    "kickoff_utc": "2026-11-21T14:30:00Z",
    "home": "Bayer 04 Leverkusen",
    "away": "SC Paderborn 07",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 4,
+   "away_score": 0,
+   "ht_home": 1,
+   "ht_away": 0,
+   "goals": [
+    "1-0 A. Moreira 14'",
+    "2-0 A. Moreira 47'",
+    "3-0 P. Schick 51'",
+    "4-0 E. Fernández 59'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
@@ -1870,12 +1875,14 @@
    "kickoff_utc": "2026-11-21T14:30:00Z",
    "home": "Eintracht Frankfurt",
    "away": "TSG Hoffenheim",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 1,
+   "away_score": 0,
+   "ht_home": 1,
+   "ht_away": 0,
+   "goals": [
+    "1-0 J. Burkardt 25'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
@@ -1888,12 +1895,19 @@
    "kickoff_utc": "2026-11-21T14:30:00Z",
    "home": "1. FC Union Berlin",
    "away": "RB Leipzig",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 1,
+   "away_score": 5,
+   "ht_home": 1,
+   "ht_away": 1,
+   "goals": [
+    "0-1 A. Nusa 18' (PK)",
+    "1-1 M. Aebischer 41'",
+    "1-2 Romulo 50'",
+    "1-3 B. Gruda 72'",
+    "1-4 R. Reitz 76'",
+    "1-5 R. Baku 89'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
@@ -1906,12 +1920,14 @@
    "kickoff_utc": "2026-11-21T14:30:00Z",
    "home": "Borussia Mönchengladbach",
    "away": "Borussia Dortmund",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 0,
+   "away_score": 1,
+   "ht_home": 0,
+   "ht_away": 0,
+   "goals": [
+    "0-1 F. Nmecha 80'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
@@ -1924,12 +1940,14 @@
    "kickoff_utc": "2026-11-21T14:30:00Z",
    "home": "SV 07 Elversberg",
    "away": "SC Freiburg",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 0,
+   "away_score": 1,
+   "ht_home": 0,
+   "ht_away": 0,
+   "goals": [
+    "0-1 I. Matanovic 68'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
@@ -1942,11 +1960,11 @@
    "kickoff_utc": "2026-11-21T17:30:00Z",
    "home": "FC Schalke 04",
    "away": "VfB Stuttgart",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
+   "finished": true,
+   "home_score": 0,
+   "away_score": 0,
+   "ht_home": 0,
+   "ht_away": 0,
    "goals": [],
    "result_source": "https://www.openligadb.de"
   },
