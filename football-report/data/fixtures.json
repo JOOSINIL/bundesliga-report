@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "fetched_at": "2026-11-22T16:05+09:00",
+ "fetched_at": "2026-11-23T16:53+09:00",
  "notes": [
   "프리미어리그: 경기 목록을 가져오지 못함 (400 Client Error:  for url: https://api.football-data.org/v4/competitions/PL/matches?season=2026)",
   "라리가: 경기 목록을 가져오지 못함 (400 Client Error:  for url: https://api.football-data.org/v4/competitions/PD/matches?season=2026)"
@@ -1978,12 +1978,17 @@
    "kickoff_utc": "2026-11-22T14:30:00Z",
    "home": "FC Augsburg",
    "away": "1. FSV Mainz 05",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 3,
+   "away_score": 1,
+   "ht_home": 2,
+   "ht_away": 0,
+   "goals": [
+    "1-0 M. Gregoritsch 19'",
+    "2-0 J. Bah 35'",
+    "3-0 M. Gregoritsch 48'",
+    "3-1 R. Königsdörffer 51'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
@@ -1996,12 +2001,17 @@
    "kickoff_utc": "2026-11-22T16:30:00Z",
    "home": "SV Werder Bremen",
    "away": "Hamburger SV",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 4,
+   "away_score": 0,
+   "ht_home": 0,
+   "ht_away": 0,
+   "goals": [
+    "1-0 M. Friedl 55'",
+    "2-0 J. Njinmah 66'",
+    "3-0 J. Njinmah 70'",
+    "4-0 N. Füllkrug 92'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
