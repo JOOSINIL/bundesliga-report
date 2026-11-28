@@ -304,6 +304,16 @@
    "stopped": null,
    "usd": 0.0,
    "finished": "2026-11-27T17:48+09:00"
+  },
+  {
+   "started": "2026-11-28T17:03+09:00",
+   "analyzed": 0,
+   "failed": 91,
+   "squads": 0,
+   "teams": 0,
+   "stopped": null,
+   "usd": 0.0,
+   "finished": "2026-11-28T17:03+09:00"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "fetched_at": "2026-11-27T17:48+09:00",
+ "fetched_at": "2026-11-28T17:03+09:00",
  "notes": [
   "프리미어리그: 경기 목록을 가져오지 못함 (400 Client Error:  for url: https://api.football-data.org/v4/competitions/PL/matches?season=2026)",
   "라리가: 경기 목록을 가져오지 못함 (400 Client Error:  for url: https://api.football-data.org/v4/competitions/PD/matches?season=2026)"
@@ -2024,12 +2024,19 @@
    "kickoff_utc": "2026-11-27T19:30:00Z",
    "home": "SV Werder Bremen",
    "away": "Borussia Mönchengladbach",
-   "finished": false,
-   "home_score": null,
-   "away_score": null,
-   "ht_home": null,
-   "ht_away": null,
-   "goals": [],
+   "finished": true,
+   "home_score": 3,
+   "away_score": 3,
+   "ht_home": 1,
+   "ht_away": 1,
+   "goals": [
+    "0-1 K. Diks 27' (PK)",
+    "1-1 E. Dinkçi 38'",
+    "1-2 F. Honorat 46'",
+    "1-3 F. Honorat 78'",
+    "2-3 E. Dinkçi 85'",
+    "3-3 N. Füllkrug 92'"
+   ],
    "result_source": "https://www.openligadb.de"
   },
   {
